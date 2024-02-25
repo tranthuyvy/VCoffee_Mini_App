@@ -1,0 +1,5 @@
+{
+  "terminal.fontSize": 24,
+  "editor.fontSize": 24,
+  "terminal.type": "git-bash"
+}

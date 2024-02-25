@@ -13,7 +13,7 @@
       "dark": "#491919"
     },
     "leftButton": "back",
-    "statusBar": "normal",
+    "statusBar": "transparent",
     "actionBarHidden": false,
     "hideAndroidBottomNavigationBar": false,
     "hideIOSSafeAreaBottom": false,
@@ -24,5 +24,10 @@
   "listCSS": [],
   "listSyncJS": [],
   "listAsyncJS": [],
-  "template": {}
+  "template": {
+    "primaryColor": "#491919",
+    "prefixCurrencySymbol": false,
+    "currencySymbol": "VNĐ",
+    "headerLogo": ""
+  }
 }

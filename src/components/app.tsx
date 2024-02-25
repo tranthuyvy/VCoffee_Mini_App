@@ -2,7 +2,7 @@ import React from "react";
 import { Route } from "react-router-dom";
 import { App, ZMPRouter, AnimationRoutes, SnackbarProvider } from "zmp-ui";
 import { RecoilRoot } from "recoil";
-import HomePage from "../pages";
+import HomePage from "../pages/index";
 import About from "../pages/about";
 import Form from "../pages/form";
 import User from "../pages/user";
