@@ -2,19 +2,27 @@
   "app": {
     "title": "VCoffee",
     "headerTitle": "VCoffee",
-    "headerColor": "#1843EF",
+    "headerColor": {
+      "light": "#8b3622",
+      "dark": "#491919"
+    },
     "textColor": "white",
     "textAlign": "left",
-    "statusBarColor": "#1843EF",
+    "statusBarColor": {
+      "light": "#8b3622",
+      "dark": "#491919"
+    },
     "leftButton": "back",
     "statusBar": "normal",
     "actionBarHidden": false,
     "hideAndroidBottomNavigationBar": false,
-    "hideIOSSafeAreaBottom": false
+    "hideIOSSafeAreaBottom": false,
+    "selfControlLoading": false
   },
   "debug": false,
   "pages": [],
   "listCSS": [],
   "listSyncJS": [],
-  "listAsyncJS": []
+  "listAsyncJS": [],
+  "template": {}
 }
