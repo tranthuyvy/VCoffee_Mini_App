@@ -5,6 +5,7 @@ import { Welcome } from './welcome';
 import { Search } from './search';
 import { Banner } from './banner'
 import { Categories } from './categories'
+import { Recommendation } from './recommendation';
 
 const HomePage: React.FunctionComponent = () => {
 
@@ -17,6 +18,7 @@ const HomePage: React.FunctionComponent = () => {
         <Banner />
 
         <Categories />
+        <Recommendation />
       </Box>
     </Page>
   );
