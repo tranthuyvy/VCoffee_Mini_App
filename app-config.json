@@ -28,6 +28,7 @@
     "primaryColor": "#491919",
     "prefixCurrencySymbol": false,
     "currencySymbol": "VNĐ",
-    "headerLogo": ""
+    "headerLogo": "",
+    "banner":""
   }
 }

@@ -1,16 +1,20 @@
 import React from 'react';
-import { List, Page, Icon, useNavigate } from 'zmp-ui';
-import { useRecoilValue } from 'recoil';
-import { userState } from '../state';
+import { Page, Box } from 'zmp-ui';
 
 import { Welcome } from './welcome';
+import { Search } from './search';
+import { Banner } from './banner'
 
 const HomePage: React.FunctionComponent = () => {
-  const user = useRecoilValue(userState);
-  const navigate = useNavigate();
+
+
   return (
-    <Page className='page'>
+    <Page className='relative bg-white'>
       <Welcome />
+      <Box className="">
+        <Search />
+        <Banner />
+      </Box>
     </Page>
   );
 };
