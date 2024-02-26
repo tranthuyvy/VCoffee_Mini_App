@@ -1,6 +1,8 @@
 import { atom, selector } from "recoil";
 import { getUserInfo } from "zmp-sdk";
 import { Product, Variant } from "./models/product";
+import { Category } from "./models/category";
+import categories from "./mock/categories.json";
 import { wait } from "./utils/async";
 
 export const productsState = selector<Product[]>({
@@ -42,3 +44,14 @@ export const displayNameState = atom({
   key: "displayName",
   default: "",
 });
+
+export const selectedCategoryIdState = atom({
+  key: "selectedCategoryId",
+  default: "coffee",
+});
+
+export const categoriesState = selector<Category[]>({
+  key: "categories",
+  get: () => categories,
+});
+

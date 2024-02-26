@@ -13,15 +13,15 @@ export const Recommendation:FC = () => {
   const recommendProducts = useRecoilValue(recommendProductsState);
 
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 8000,
     centerMode: true,
-    centerPadding: '14%',
+    centerPadding: '12%',
     focusOnSelect: true
   };
 
